@@ -1,1 +1,1 @@
-# Business-Time---Alta-Ski-Area
+# Business-Time-Alta-Ski-Area
