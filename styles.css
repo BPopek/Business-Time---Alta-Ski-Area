@@ -1,0 +1,558 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    position: fixed; 
+    background-color: rgb(167, 1, 1);
+    top: 0px;
+    left: 0px;
+    width: 100vw; 
+    height: 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    cursor: pointer;
+}
+.navbarButton {
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.container > div {
+    display: flex;
+    font-size: 2em;
+    color: #ffeead;
+}
+.container {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+body {
+    margin-top: 30px;
+    display: center;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1 {
+    height: auto;
+    padding: 25px;
+    text-align: center;
+    background-color: lightgrey;
+}
+.main {
+    font-size: 15px;
+    margin: 0px;
+}
+.main {
+    font-size: 15px;
+    margin: 0px;
+}
+.subHead {
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 10px 15px;
+}
+p {
+    color: black;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 5px;
+}
+.name {
+    font-size: 15px;
+}
+
+h3 {
+    color: rgb(167, 1, 1);
+    font-size: 15px;
+    margin: 25px 10px 0px 10px;
+}
+h2 {
+    /* position: relative; */
+    color: rgb(167, 1, 1);
+    font-size: 15px;
+    /* margin: 5px 2px 0px 2px; */
+}
+.homeImage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/main-EK0B4158.jpg);
+    background-position: center center;
+    background-size: 100% 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: grey;
+}
+.homeImage > h2  {
+    text-align: left;
+    text-shadow: 0px 0px 10px white, 2px 2px 8px white;
+}
+.homeColor {
+    color: rgb(63, 63, 63);
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.homeColorTop {
+    color: rgb(63, 63, 63);
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.homeImageColorTextBottom {
+    color: rgb(167, 1, 1);
+    text-align: left;
+    margin-left: 50px;
+    font-size: 15px;
+    text-shadow: 0px 0px 10px white, 2px 2px 8px white;
+    font-weight: 600;
+}
+.homeImageColorText {
+    color: rgb(167, 1, 1);
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.containerSkiSchool {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    margin: auto;
+    vertical-align: center;
+    padding: 20px;
+}
+h3.skiSchool {
+    color: rgb(167, 1, 1);
+    font-size: 15px;
+    margin: 5px 10px 5px 10px;
+    line-height: 20px;
+}
+.mountainInfo {
+    font-size: 14px;
+}
+.ssLadies {
+    background-color: rgba(211, 211, 211, 0.349);
+    padding: 10px 25px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+.ssMasters {
+    background-color: rgba(211, 211, 211, 0.349);
+    padding: 10px 25px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+.ssAllSat {
+    background-color: rgba(211, 211, 211, 0.349);
+    padding: 10px 25px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+.ssAllSun {
+    background-color: rgba(211, 211, 211, 0.349);
+    padding: 10px 25px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+.ssRace {
+    background-color: rgba(211, 211, 211, 0.349); 
+    padding: 10px 25px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+/* h4 {
+    font-size: 15px;
+    margin: 10px;
+} */
+.mainLeft {
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, 0.349);
+    padding: 10px 25px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+.mainRight {
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, 0.349);
+    padding: 10px 25px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+.mainWhole {
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, 0.349);
+    padding: 10px 25px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+img.topImage {
+    width: 100%;
+    height: auto;
+}
+h1.openingDay {
+    font-size: 16px;
+    padding: 10px;
+}
+.skiSchool {
+    font-size: 16px;
+    padding: 10px;
+}
+.containerTickets {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto;
+    grid-gap: 0px;
+    margin: 0px;
+}
+.subHeadTickets {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 15px 15px 25px 15px;
+}
+h1.tickets{
+    background-color: rgb(167, 1, 1);
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+}
+p.mainTickets {
+    font-size: 15px;
+    margin: 20px 5px 5px 5px;
+    font-weight: bold;
+}
+h3.tickets {
+    font-size: 15px;
+    border-bottom: 2px solid lightgrey;
+    margin-top: 35px;
+}
+p.inner {
+    font-size: 15px;
+    font-weight: normal;
+    padding: 0px 20px 5px 20px;
+}
+h2.cond {
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 15px;
+}
+.containerCond {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto;
+}
+
+@media (min-width: 500px) {
+    .navbar {
+        height: 50px;
+    }
+    .navbar a {
+        font-size: 18px;
+    }
+    .container {
+        height: 800px;
+        grid-gap: 25px;
+        padding: 0px;
+    }
+    .containerSkiSchool {
+        grid-template-columns: repeat(2, 2fr);
+        grid-gap: 25px;
+        margin: auto;
+        padding: 25px;
+    }
+    .homeImage {
+        height: 900px;
+        margin-top: 20px;
+    }
+    .homeImageColorText {
+        margin: 0px;
+        font-size: 24px;
+    }
+    .homeColorTop {
+        margin: 30px 0px 10px 30px;
+        font-size: 24px;
+    }
+    .homeImageColorTextBottom {
+        font-size: 24px;
+        margin-left: 80px;
+    }
+    .homeColor {
+        margin: 10px 0px 10px 50px;
+        font-size: 24px;
+    }
+    h1 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h4.price {
+        font-size: 18px;
+        line-height: 18px;
+        margin: 10px 0px 0px 0px;
+    }
+    p {
+        font-size: 18px;
+    }
+    p.subHead {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    .subHeadTickets {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .main {
+        font-size: 18px;
+    }
+    .mainTickets {
+        font-size: 18px;
+    }
+    .name {
+        font-size: 18px;
+    }
+    h3.skiSchool {
+        font-size: 18px;
+    }
+    .ssLadies {
+        grid-column: 1/2;
+        padding: 100px 25px 25px 25px;
+    }
+    .ssMasters {
+        grid-column: 2/-1;
+        padding: 25px;
+    }
+    .ssAllSat {
+        grid-column: 1/2;
+        padding: 25px;
+    }
+    .ssAllSun {
+        grid-column: 2/-1;
+        padding: 25px;
+    }
+    .ssRace {
+        grid-column: 1/-1;  
+        padding: 25px;
+    }
+    .mainLeft {
+        font-size: 18px;
+        grid-column: 1/2;
+    }
+    .mainRight {
+        font-size: 18px;
+        grid-column: 2/-1;
+    }
+    .mainWhole {
+        font-size: 18px;
+        grid-column: 1/-1;
+    }
+    .subHeadTickets {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 25px 15px 25px 15px;
+    }
+    h1.tickets{
+        background-color: rgb(167, 1, 1);
+        color: white;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    p.mainTickets {
+        font-size: 18px;
+        margin: 20px 5px px 5px;
+        font-weight: bold;
+    }
+    h3.tickets {
+        font-size: 20px;
+        border-bottom: 2px solid lightgrey;
+        margin-top: 35px;
+    }
+    p.inner {
+        font-size: 18px;
+        font-weight: normal;
+        padding: 5px 50px 5px 50px;
+    }
+    p.condMain {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    h2.cond {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .navbar {
+        height: 50px;
+    }
+    .navbar a {
+        font-size: 20px;
+    }
+    .container {
+        height: 800px;
+        margin-top: 20px;
+        grid-gap: 50px;
+    }
+    .containerSkiSchool {
+        grid-gap: 50px;
+        padding: 35px;
+    }
+    .homeImage {
+        height: 100vh;
+        margin-top: 0px;
+    }
+    .homeColorTop {
+        font-size: 34px;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    h2.homeColor {
+        font-size: 34px;
+        margin: 0px 20px 10px 150px;
+    }
+    .homeImageColorText {
+        font-size: 34px;
+    }
+    .homeImageColorTextBottom {
+        font-size: 34px;
+        margin-left: 240px;
+    }
+    h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    p.subHead {
+        font-size: 22px;
+        line-height: 34px;
+        margin-bottom: 25px;
+    }
+    .subHeadTickets {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .main {
+        font-size: 20px;
+    }
+    .mainTickets {
+        font-size: 20px;
+    }
+    .name {
+        font-size: 20px;
+    }
+    h3.skiSchool {
+        font-size: 24px;
+    }
+    .ssLadies {
+        grid-column: 1/2;
+        padding: 120px 25px 25px 25px;
+    }
+    .ssMasters {
+        grid-column: 2/-1;
+    }
+    .ssAllSat {
+        grid-column: 1/2;
+    }
+    .ssAllSun {
+        grid-column: 2/-1;
+    }
+    .ssRace {
+        grid-column: 1/-1;  
+    }
+    h1.openingDay {
+        font-size: 22px;
+        padding: 15px;
+    }
+    .skiSchool {
+        font-size: 22px;
+        padding: 15px;
+    }
+    .mainLeft {
+        font-size: 20px;
+    }
+    .mainRight {
+        font-size: 20px;
+    }
+    .mainWhole {
+        font-size: 20px;
+    }
+    .mountainInfo {
+        font-size: 18px;
+    }
+    .subHeadTickets {
+        font-size: 20px;
+        margin: 25px 15px 25px 15px;
+        padding: 15px;
+    }
+    h1.tickets{
+        background-color: rgb(167, 1, 1);
+        color: white;
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    p.mainTickets {
+        font-size: 20px;
+        margin: 20px 5px px 5px;
+        font-weight: bold;
+    }
+    h3.tickets {
+        font-size: 24px;
+        border-bottom: 2px solid lightgrey;
+        margin-top: 35px;
+    }
+    p.inner {
+        font-size: 20px;
+        font-weight: normal;
+        padding: 5px 20px 5px 20px;
+    }
+    p.condMain {
+        font-size: 20px;
+    }
+    h2.cond {
+        font-size: 22px;
+        border-bottom: 1px solid lightgrey;
+    }   
+    h4.price {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 10px 0px 0px 0px;
+    }
+}
