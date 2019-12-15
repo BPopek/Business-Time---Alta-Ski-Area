@@ -26,6 +26,12 @@
     margin-top: 0px;
     padding-top: 0px;
 }
+.altaLogo {
+    height: 20px;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5px;
+}
 .container > div {
     display: flex;
     font-size: 2em;
@@ -263,6 +269,12 @@ h2.cond {
     }
     .navbar a {
         font-size: 18px;
+    }
+    .altaLogo {
+        height: 40px;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 5px;
     }
     .container {
         height: 800px;
